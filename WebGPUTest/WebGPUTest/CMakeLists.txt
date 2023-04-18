@@ -1,0 +1,14 @@
+INCLUDE_DIRECTORIES(./)
+INCLUDE_DIRECTORIES(../)
+
+ADD_EXECUTABLE(
+        WebGPUTest
+        Main.cpp
+)
+
+INSTALL(
+        TARGETS WebGPUTest
+        RUNTIME DESTINATION bin
+        LIBRARY DESTINATION lib
+        ARCHIVE DESTINATION lib
+)
