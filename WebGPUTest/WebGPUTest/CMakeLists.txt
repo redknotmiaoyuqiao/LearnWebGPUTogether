@@ -6,6 +6,8 @@ ADD_EXECUTABLE(
         Main.cpp
 )
 
+TARGET_LINK_LIBRARIES (WebGPUTest glfw3)
+
 INSTALL(
         TARGETS WebGPUTest
         RUNTIME DESTINATION bin
